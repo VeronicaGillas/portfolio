@@ -1,11 +1,12 @@
 html, body {
-  background-color: #E8C4AE;
+  background-color: #C0D5D2;
   margin: 0;
   padding: 0;
 }
 
 .header {
   min-height: 80px;
+  background-color: #364450;
 }
 
 .header h1 {
@@ -51,7 +52,7 @@ html, body {
 }
 
 .header .nav-pills a:hover {
-  background-color: #5CBDAA;
+  background-color: #F48679;
   transition: 0.5s ease-in-out;
 }
 
@@ -147,7 +148,7 @@ html, body {
 */
 
 .footer {
-  background-color: #4A4C61;
+  background-color: #364450;
   min-height: 100px;
   color: #fff;
   font-family: 'Montserrat';
@@ -188,7 +189,7 @@ html, body {
 
 .about {
   min-height: 650px;
-  background-color: #f0e7d6;
+
   color: #fff;
   font-family: 'Montserrat';
 
@@ -252,52 +253,67 @@ html, body {
 /* End > Husband's Bubble Fix */
 
 .contact {
-  background-color: #f0e7d6;
-  min-height: 650px;
+
+  min-height: 560px;
   font-family: 'Montserrat';
   color: #fff;
 
 }
 
+
+
+.contact dd a {color: #f48679;}
+.contact dd a:hover {text-decoration: none;}
+.contact .social-links {margin-bottom: 0; margin-top: 0;}
+.contact iframe {float: left;}
+
 .contact .row {
   margin-left: 0;
   margin-right: 0;
   margin-top: 55px;
+
 }
 
 .contact h1 {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 30px;
+
 }
 
-.contact .col-md-9 {
+/*.contact .col-md-9 {
   padding: 0;
+  max-width: 500px;
+  margin-left: 68px;*/
+
 }
 
 .contact .col-md-3 {
   padding: 0;
 }
 
-#submit-button {
-  margin-top: 60px!important;
+/*#submit-button {
+  margin-top: 10px!important;
   padding: 10px 25px!important;
 }
 
+
+
 .form-group {
-  width: 450px;
+  width: 325px;
 }
 
 .form-control {
   margin-top: 10px;
-}
+}*/
+
 .contact dd {
-  margin-bottom: 25px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .projects {
-  background-color: #f0e7d6;
+
   min-height: 650px;
   font-family: 'Montserrat';
   color: #fff;
@@ -306,21 +322,17 @@ html, body {
 
 #contact-info h2 {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .projects h1 {
   font-size: 30px;
   text-align: center;
-
   margin-top: 55px;
   padding-bottom: 20px;
 }
 
 .projects .row {
-
-
-
   margin-bottom: 25px;;
   margin-left: 0;
   margin-right: 0;
@@ -351,6 +363,10 @@ html, body {
   border-radius: 0;
 }
 
+@media (max-width: 1199px) {
+  iframe {width: 500px;}
+}
+
 @media (max-width: 991px) {
   .row .bubble-fam{width:720px;}
   .about .third, .about .fourth{display:none;}
@@ -363,6 +379,9 @@ html, body {
   .about-text h2 {margin-top: 40px; margin-bottom: 20px;}
   .footer p {display: inline;}
   .footer .col-md-8 {margin-top: 40px!important; display: block; float: left;}
+  .contact .col-md-9 {float: left;}
+  iframe {width: 400px;}
+  .contact .col-md-3 {width: 250px;margin-right: 0; float: right;}
   .about-text {min-height: 400px!important;
 }
 
@@ -376,11 +395,24 @@ html, body {
   .header .col-md-4 {text-align: center; margin-left: auto; margin-right: auto; width: 100%; display: block !important;}
   body .header .row h1, body .header .row ul{text-align: center; margin-left: auto; margin-right: auto; float:none; display: block; width: 100%;}
   body .header .row ul li{width: 33%; text-align:center; margin:0;}
+  iframe {display: none;}
+  .contact .col-md-3 {width: 100%; text-align: center;}
 }
 
+@media (max-width: 644px) {
+  /*.contact .col-md-3 {text-align: center; width: 100%; margin-left: 0;}*/
+  /*#contact-info {margin-top: 40px;}*/
+  /*body .contact .col-md-9 {margin-left: auto; margin-right: auto; width: 100%;}
+  body .contact form {margin-left: auto; margin-right: auto; width: 100%;}
+  .contact .col-md-9 h1 {text-align: center; margin-left: auto; margin-right: auto;}*/
+
+
+}
 
 @media (max-width: 558px) {
   .header .col-md-4 {text-align: center; margin-left: auto; margin-right: auto; width: 100%; display: block !important;}
   body .header .row h1, body .header .row ul{text-align: center; margin-left: auto; margin-right: auto; float:none; display: block; width: 100%;}
   body .header .row ul li{width: 33%; text-align:center; margin:0;}
+
+
 }
