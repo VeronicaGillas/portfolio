@@ -1,0 +1,386 @@
+html, body {
+  background-color: #E8C4AE;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  min-height: 80px;
+}
+
+.header h1 {
+  margin-top: 15px;
+
+}
+.header .row {
+  margin-left: 0;
+  margin-right: 0;
+
+}
+.header #name {
+  font-family: 'Lobster'!important;
+  color: #fff;
+  text-decoration: none;
+  font-size: 45px!important;
+
+}
+
+.header li {
+  display: inline;
+  text-align: right;
+
+}
+
+.header ul {
+  margin-top: 22px;
+  margin-bottom: 15px;
+}
+
+.header a {
+  color: #fff;
+  font-family: 'Montserrat';
+
+}
+
+.header .col-md-8 {
+  padding: 0;
+}
+
+.header .col-md-4 {
+  padding: 0;
+}
+
+.header .nav-pills a:hover {
+  background-color: #5CBDAA;
+  transition: 0.5s ease-in-out;
+}
+
+.nav-pills> li>a {
+  margin-right: 10px;
+}
+
+.col-md-8 ul {
+  float: right;
+}
+
+
+.jumbotron {
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  background: url("../img/jumbotron.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.main {color: #fff; font-family: 'Montserrat';}
+
+.main>.container {
+  /*margin-top: 40px;*/
+}
+
+.main .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.main-copy {max-width: 940px; margin: 40px auto 40px auto; text-align: center;}
+
+.main-copy h1 {margin-bottom: 25px;}
+
+
+
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+
+.thumbnail {
+  margin-bottom: 25px;
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main img {
+  height: 225px;
+  width: 350px;
+}
+
+.main img:hover {
+    background: rgba(0,0,0,.5);
+    opacity:0.5;
+    transition: 1s ease-in-out;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0;
+}
+.main .col-md-4 {
+  padding: 0;
+}
+.main .two {
+  margin-bottom: 15px;
+}
+
+/*.main figcaption {
+  margin-left: 70px;
+  margin-top: -170px;
+  position: absolute;
+  text-align: center;
+}
+
+.main figcaption p {
+  display: table-cell;
+	font-size: 30px;
+  font-family: 'Lobster';
+	position: relative;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0;
+
+}
+
+.main figcaption p:hover {
+	opacity: 1;
+}
+*/
+
+.footer {
+  background-color: #4A4C61;
+  min-height: 100px;
+  color: #fff;
+  font-family: 'Montserrat';
+
+}
+.footer .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.footer .col-md-8 {
+  padding: 0;
+  margin-top: 40px;
+  display: inline;
+}
+
+.social li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+.footer img:hover {
+  transform: rotateY(360deg);
+  transition: ease 2s;
+
+}
+
+.footer .col-md-4 {
+  float: right;
+  position: relative;
+  max-width: 100% !important;
+  height: auto;
+  width: auto;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.about {
+  min-height: 650px;
+  background-color: #f0e7d6;
+  color: #fff;
+  font-family: 'Montserrat';
+
+
+}
+
+.about-text {
+  min-height: 300px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.about h2 {
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.about p {
+  text-align: justify;
+  margin-top: 20px;
+}
+
+
+.about .row {
+  margin-top: 80px;
+  min-height: 250px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Husband's Bubble Fix */
+
+.row .bubble-fam{width:940px; position:relative; margin: 0 auto !important; float:none;}
+
+.bubble-fam img{
+  border-radius: 50%;
+  position: absolute;}
+
+.about .first {
+  top: 40px;
+  left: 0px;}
+
+.about .second {
+  top: 0px;
+  left: 150px;}
+
+.about .third {
+  top: 40px;
+  right: 410px;}
+
+.about .fourth {
+  top: 0px;
+  right: 150px;}
+
+.about .fifth {
+  top: 40px;
+  right: 0px;}
+
+
+/* End > Husband's Bubble Fix */
+
+.contact {
+  background-color: #f0e7d6;
+  min-height: 650px;
+  font-family: 'Montserrat';
+  color: #fff;
+
+}
+
+.contact .row {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 55px;
+}
+
+.contact h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.contact .col-md-9 {
+  padding: 0;
+}
+
+.contact .col-md-3 {
+  padding: 0;
+}
+
+#submit-button {
+  margin-top: 60px!important;
+  padding: 10px 25px!important;
+}
+
+.form-group {
+  width: 450px;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+.contact dd {
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.projects {
+  background-color: #f0e7d6;
+  min-height: 650px;
+  font-family: 'Montserrat';
+  color: #fff;
+}
+
+
+#contact-info h2 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.projects h1 {
+  font-size: 30px;
+  text-align: center;
+
+  margin-top: 55px;
+  padding-bottom: 20px;
+}
+
+.projects .row {
+
+
+
+  margin-bottom: 25px;;
+  margin-left: 0;
+  margin-right: 0;
+  height: 225px;
+}
+
+.projects .col-md-4 {
+  padding: 0 10px;
+}
+
+.projects img {
+  height: 225;
+  width: 350;
+}
+
+.projects img:hover {
+  transition: all .4s ease-in-out;
+  transform: scale(1.1);
+}
+
+.projects .bottom {
+  margin-top: 10px;
+  padding-top: 0;
+  border: 0;
+}
+
+.projects .thumbnail {
+  border-radius: 0;
+}
+
+@media (max-width: 991px) {
+  .row .bubble-fam{width:720px;}
+  .about .third, .about .fourth{display:none;}
+  .about .second {left:223px;}
+  .projects {overflow: auto;}
+  .col-md-4 {display: inline; margin-top: 22px; margin-bottom: 14px;}
+  .header h1 {display: inline; float: left;}
+  .header .col-md-8 {display: inline;}
+  .header p {display: inline; margin-top: 40px; float: left;}
+  .about-text h2 {margin-top: 40px; margin-bottom: 20px;}
+  .footer p {display: inline;}
+  .footer .col-md-8 {margin-top: 40px!important; display: block; float: left;}
+  .about-text {min-height: 400px!important;
+}
+
+@media (max-width: 720px) {
+  .row .bubble-fam{width:100%;}
+  .about .first, .about .fifth{display:none;}
+  .about .second {position:static; margin-left:auto !important; margin-right:auto !important; float:none; display:block;}
+  .header h1 {display: inline; float: none;}
+  .projects img {margin: auto; height: 100%}
+  .projects .bottom {margin: auto; height: 100%}
+  .header .col-md-4 {text-align: center; margin-left: auto; margin-right: auto; width: 100%; display: block !important;}
+  body .header .row h1, body .header .row ul{text-align: center; margin-left: auto; margin-right: auto; float:none; display: block; width: 100%;}
+  body .header .row ul li{width: 33%; text-align:center; margin:0;}
+}
+
+
+@media (max-width: 558px) {
+  .header .col-md-4 {text-align: center; margin-left: auto; margin-right: auto; width: 100%; display: block !important;}
+  body .header .row h1, body .header .row ul{text-align: center; margin-left: auto; margin-right: auto; float:none; display: block; width: 100%;}
+  body .header .row ul li{width: 33%; text-align:center; margin:0;}
+}
